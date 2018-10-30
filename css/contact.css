@@ -1,0 +1,11 @@
+nav.col-xs-12 {
+  align-items: stretch
+}
+footer.container-fluid {
+  background-color: #eeddcd;
+}
+address {
+  border-left: solid black 1px;
+  border-right: solid black 1px;
+  padding-left: 10px;
+}
