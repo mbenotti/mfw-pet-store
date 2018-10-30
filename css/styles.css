@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.logo {
+  width: 85px;
+}
+ header h1 {
+   color: #c9c983; /*Pet Store color od words in logo*/
+   font-family: 'Satisfy', cursive;
+ }
+ .nav-pills>li>a {
+   color: #5c433f;
+   background-color: #eeddcd;
+   border: solid #5c433f 1px;
+   margin-top: 10px;
+ }
+ .nav-pills>li.active>a {
+   color: #5c433f; /*color is darkolivegreen*/
+   background-color: #c9c983; /*Pet Store color of words in logo*/
+   border: solid #5c433f 1px;
+  }
+.jumbotron {
+  background-image: url('../img/hero.jpg'); /*.. added to navigate back out of css folder and go to img folder */
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  margin-bottom: 30px;
+}
+.jumbotron h2 {
+  font-weight: 300;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+#products .text-uppercase {
+  background-color: #eeddcd;
+  font-weight: bold;
+}
+.featured p {
+  margin-bottom: 20px;
+}
+.product {
+  background-color: #eeddcd;
+  margin-bottom: 10px;
+}
+.img-box h4 {
+  font-weight: bold;
+}
+.img-1 {
+  margin-top: 10px;
+  margin-bottom: 7px;
+}
+.img-2,.img-3 {
+  margin-top: 7px;
+}
+.btn {
+  border: solid #5c433f 1px;
+}
+footer.container-fluid {
+  background-color: #eeddcd;
+}
+.centered {
+  margin-top: 35px;
+}
+address {
+  border-left: solid black 1px;
+  border-right: solid black 1px;
+  padding-left: 10px;
+}
